@@ -1,0 +1,59 @@
+{
+  "name": "consulte-html",
+  "version": "1.0.0",
+  "description": "Consulte - Sistema de Gestão Escolar",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp",
+    "demo": "echo \"for Vercel static deployment\" && exit 0"
+  },
+  "author": "Gabriel Nakhata for Consulte",
+  "license": "ISC",
+  "homepage": "https://www.consulteinformatica.com/",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "browser-sync": "^2.28.3",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rollup": "^2.17.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulplog": "^2.0.1",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^1.7.1",
+    "bootstrap": "^5.2.3",
+    "boxicons": "^2.1.4",
+    "cleave.js": "^1.6.0",
+    "imagesloaded": "^5.0.0",
+    "img-comparison-slider": "^8.0.0",
+    "jarallax": "^2.1.3",
+    "lightgallery": "^2.7.1",
+    "nouislider": "^15.7.0",
+    "parallax-js": "^3.1.0",
+    "prismjs": "^1.29.0",
+    "rellax": "^1.12.1",
+    "shufflejs": "^6.1.0",
+    "smooth-scroll": "^16.1.3",
+    "swiper": "^8.4.7",
+    "vanilla-tilt": "^1.8.0"
+  },
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Firefox ESR",
+    "iOS >= 12",
+    "Safari >= 12",
+    "Android >= 8",
+    "not Explorer <= 11"
+  ]
+}
